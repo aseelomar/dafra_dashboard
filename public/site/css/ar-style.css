@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cairo&display=swap");
+@font-face {
+  font-family: geflow;
+  src: url("fonts/ENAR/AR/geflow.otf");
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: geflow;
+}
+body {
+  overflow: hidden;
+}
+h1 {
+  font-weight: 100;
+}
+small {
+  color: #9d9d9d;
+  position: relative;
+  top: -18px;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+.container {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.dafra-img {
+  width: 50%;
+}
+.form {
+  margin: 0;
+  width: 51%;
+  height: 100%;
+  background-color: white;
+  margin-top: 0px;
+}
+
+.en {
+  display: hidden;
+}
+
+.btn {
+  width: 64%;
+  margin: 20px auto;
+  background-color: #475993;
+  height: 40px;
+  color: white;
+  margin-top: -17px;
+  font-size: 12px;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
+.btn img {
+  margin: 10px;
+}
+form {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  font-size: 12px;
+}
+.feild {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 10px auto;
+}
+input {
+  height: 35px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #b0b0b0;
+  background-color: #fcfcfc;
+}
+label {
+  color: #b0b0b0;
+}
+.first-block {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.first-block div {
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+}
+h5 {
+  color: #b0b0b0;
+}
+.signup {
+  background-color: #610a04;
+  width: 80%;
+  margin-top: -8px;
+  height: 45px;
+  font-family: geflow;
+}
+.first-block .valid,
+.feild .valid {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.valid img {
+  width: 15px;
+}
+.valid span {
+  color: red;
+}
+.login {
+  margin-top: 120px;
+}
+
+.general {
+  background-color: black;
+}
